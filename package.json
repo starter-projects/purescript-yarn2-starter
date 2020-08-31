@@ -1,0 +1,28 @@
+{
+  "name": "purescript-yarn2-starter",
+  "private": true,
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "postinstall": "yarn node --trace-uncaught .scripts/hooks/postinstall.js",
+    "build": "yarn spago build --source-maps --purs-args '-o output/ -g sourcemaps'",
+    "repl": "yarn spago repl",
+    "test": "yarn spago test --source-maps"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.1.1",
+    "prettier-plugin-package": "^1.0.0",
+    "purescript": "^0.13.8",
+    "purty": "^6.2.0",
+    "spago": "^0.16.0"
+  }
+}

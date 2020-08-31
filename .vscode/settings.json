@@ -1,0 +1,11 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.enable": true,
+  "eslint.nodePath": ".yarn/sdks",
+  "eslint.packageManager": "yarn",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "purescript.addSpagoSources": true,
+  "purescript.buildCommand": "yarn spago build --source-maps --purs-args '--json-errors'",
+  "purescript.packagePath": ".spago",
+  "purescript.pursExe": ".yarn/unplugged/purescript-npm-0.13.8-57376848b7/node_modules/purescript/purs2.bin"
+}

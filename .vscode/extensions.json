@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // ESLint
+    "nwolverson.ide-purescript", // PureScript IDE
+    "nwolverson.language-purescript", // PureScript Language Support
+    "esbenp.prettier-vscode", // Prettier - Code formatter
+    "mvakula.vscode-purty" // vscode-purty
+  ]
+}
